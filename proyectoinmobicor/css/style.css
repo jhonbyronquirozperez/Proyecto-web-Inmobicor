@@ -1,0 +1,77 @@
+/*header*/
+*{
+	margin: 0px;
+	padding: 0px;;
+}
+header {
+	width:100%; /* Establecemos que el header abarque el 100% del documento */
+	overflow:hidden; /* Eliminamos errores de float */
+	background:#ca1515;
+	margin-bottom:20px;
+}
+.inicio{
+	background-image: url(../imagenes/foto7.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	animation: slide 60s infinite;
+}
+@keyframes slide{
+	25%{
+		background-image: url(../imagenes/foto9.jpg);
+	}
+	50%{
+		background-image: url(../imagenes/foto7.jpg);
+	}
+	75%{
+		background-image: url(../imagenes/foto8.jpg);
+	}
+	
+}
+
+
+/*-----------------------*/
+.wrapper {
+	width:90%; /* Establecemos que el ancho sera del 90% */
+	max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+	margin:auto; /* Centramos los elementos */
+	overflow:hidden; /* Eliminamos errores de float */
+}
+
+header .logo {
+	color:#f2f2f2;
+	font-size:50px;
+	line-height:200px;
+	float:left;
+
+	
+}
+
+header nav {
+	float:right;
+	line-height:150px;
+
+}
+
+
+header nav a {
+	display:inline-block;
+	color:black;
+	text-decoration:none;
+	padding:10px 10px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+	
+}
+
+header nav a:hover {
+	background:#f56f3a;
+	border-radius:50px;
+
+}
+
