@@ -22,18 +22,13 @@ header {
 @keyframes slide{
 	25%{
 		background-image: url(../imagenes/foto9.jpg);
-		
 	}
 	50%{
-		background-image: url(../imagenes/foto7.jpg);
-		
+		background-image: url(../imagenes/apartment-5974510_1280.jpg);
 	}
 	75%{
 		background-image: url(../imagenes/foto8.jpg);
-	
 	}
-
-	
 }
 
 
@@ -43,13 +38,11 @@ header {
 	max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
 	margin:auto; /* Centramos los elementos */
 	overflow:hidden; /* Eliminamos errores de float */
-	
 }
-
 header .logo {
 	color:#f2f2f2;
 	font-size:50px;
-	line-height:900%;
+	line-height:850%;
 	float:left;
 }
 .logo img{
@@ -58,14 +51,10 @@ header .logo {
 	border-radius: 30px;
 	box-shadow: 2px 2px 0px #000000;
 }
-
 header nav {
 	float:right;
 	line-height:150px;
-
 }
-
-
 header nav a {
 	display:inline-block;
 	color:black;
@@ -77,20 +66,16 @@ header nav a {
 	-webkit-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
 	transition:all 500ms ease;
-	
 }
-
 header nav a:hover {
 	background:#f56f3a;
 	border-radius:50px;
-
 }
-
 /* ------barra de busqueda--------*/
 
 .box {
 	position: absolute;
-	top: 48%;
+	top: 40%;
 	left: 52%;
 	transform: translate(-50%,-50%);
 }
@@ -100,6 +85,13 @@ header nav a:hover {
 	font-size: 22px;
 	box-sizing: border-box;
 	transition: .5s;
+}
+.box h1{
+	position: relative;
+	top: -5px;
+	left: 85px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 input[type="text"]
 {
@@ -125,4 +117,47 @@ input[type="submit"]
 }
 input[type="submit"]:hover{
 	background: #f56f3a;
+}
+body{
+	background-color: #f3ffcf;
+}
+.blogs-post-container .post-container{
+	display: inline-block;
+	padding-left: 10px;
+	max-width: 30%;
+	margin-bottom: 50px;
+	margin-left: 20px;
+	border-radius: 10px solid #000;
+}
+.blogs-post-container .post-container p{
+	margin-bottom: 35px;
+	font-weight: bold;
+}
+.blogs-post-container .post-container img{
+	width: 100%;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.blogs-button{
+	border: 1px solid #47cfac;
+	padding: 10px 15px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+footer{
+	width: 100%;
+	height: 100px;
+	background-color: #22272d;
+	border-top: 35px solid #fc4000;
+	color: #f3ffcf;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.footer-text{
+	font-size: 15px;
+	place-self: center;
+}
+.footer-icons{
+	place-self: center;
 }
