@@ -149,7 +149,7 @@ footer{
 	width: 100%;
 	height: 100px;
 	background-color: #22272d;
-	border-top: 35px solid #fc4000;
+	border-top: 35px solid #ca1515;
 	color: #f3ffcf;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -161,3 +161,38 @@ footer{
 .footer-icons{
 	place-self: center;
 }
+
+/*------------- servicios --------------*/
+
+.servicios-header{
+	
+}
+.servicios-wrapper{
+	width:90%; /* Establecemos que el ancho sera del 90% */
+	height: 180px;
+	max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+	margin:auto; /* Centramos los elementos */
+	overflow:hidden; /* Eliminamos errores de float */
+}
+.servicios-container h3{
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 30px;
+	font-weight: bold;
+}
+.serviciosblogs-post-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-top: 20px;
+	justify-content: center center;
+}
+.serviciosblogs-post-container h3{
+	text-align: center;
+}
+.servicios-container img{
+	width: 70%;
+	border-radius: 10px;
+	
+	
+}
+
